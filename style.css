@@ -12,16 +12,24 @@ body {
     grid-gap: 10px;
     max-width: 300px;
     margin: auto;
+    border-radius: 5px;
+    border: 1px solid black;
+    background-image: url(https://th.bing.com/th/id/OIF.qxAaD4U7q00JHUIq0VJuiQ?rs=1&pid=ImgDetMain);
+    padding: 10px;
 }
 
 input {
     grid-column: span 4;
     padding: 10px;
     font-size: 1.5em;
+    border-radius: 5px;
+    background-color: rgb(185, 185, 185);
 }
 
 button {
     padding: 10px;
     font-size: 1.5em;
     cursor: pointer;
+    border-radius: 5px;
+    background-image: url(https://th.bing.com/th/id/OIF.qxAaD4U7q00JHUIq0VJuiQ?rs=1&pid=ImgDetMain);
 }
